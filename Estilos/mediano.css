@@ -1,0 +1,259 @@
+.display-mediano{
+	display: inherit !important;
+}
+
+body{
+	font-family: Georgia;
+}
+/* ----- GENERAL ----- */ 
+
+header, footer, .imagenPrincipal, #wrapper{
+	margin: 0 auto;
+	clear: both;
+	width: 100%;
+	max-width: 1500px;
+}
+
+header hgroup {
+	width: 100%;
+	float: left;
+	max-width: 1500px;
+}
+
+header nav {
+    max-width: 1500px;
+	width: 100%;
+	float: left;
+	margin-bottom: 1%;
+}
+
+
+
+#main-section{
+	float: left;
+	margin-left: 2%;
+	width: 58%;
+	max-width:1025px;
+}
+
+#main-nav{	
+	width: 37.3%;
+	max-width: 475px;
+	margin-left: 62.7%;
+}
+
+
+/* ----- FIN GENERAL ---- */
+
+/* ----- HEADER ----- */
+
+header hgroup h1 {
+	font-family: bebasneue, serif;
+	font-size: 3.8em;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+header hgroup h2 {
+	margin-top: -5%;
+	color: #3d667e;
+	letter-spacing: 0.1em;
+	text-align: center;
+	font-size: 1.8em;
+	font-weight: normal;
+	font-family: "Bebas Neue";
+}
+
+
+header nav ul{
+	list-style: none;
+	margin-left: 19%;
+
+}
+
+header nav ul li {
+	float: left;
+	margin-right: 7%;
+	font-size: 1em;
+	font-family: Arial;
+}
+
+header nav ul li a {
+	text-decoration: none;
+	color: #3d667e;
+	font-weight: bold;
+}
+
+/* ----- FIN HEADER ----- */
+
+
+
+/* ----- ARTICLE ----- */
+
+#imageninicial img{
+	width: 100%;
+}
+article h3 {
+	font-family: bebasneue;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+article p {
+	margin: 0.8em 0; 
+	font-family: Arial;
+}
+
+article p:nth-of-type(2) {
+	background-image: url("../Imagenes/img-main.png");
+	background-repeat: no-repeat;
+	height: 300px;
+}
+
+article p a {
+	color: #000;
+    text-decoration: none;
+}
+article p a:hover {
+	color: #3d667e;
+	border-bottom: 0.1em dashed #3d667e;
+}
+
+/* ----- FIN ARTICLE ----- */
+
+
+/* ----- ASIDE ----- */
+
+aside {
+	border: 3px solid #E6E6FA;
+	margin-top: 6%;
+}
+
+aside nav h6{
+	margin-top: 5px;
+}
+aside nav h4, h6{
+	font-family: bebasneue;
+	font-size: 35px;
+	text-transform: uppercase;
+	text-align: center;
+}
+aside nav ol{
+  margin-top: -4.5em;
+	list-style-type: none;
+
+}
+aside nav ul{
+  margin-top: -2.4em;
+	list-style-type: none;
+}
+aside nav ol{
+  margin-bottom: -35px;
+}
+
+aside nav ol li:first-child {
+	margin-right: 20px;
+  background-color: #E6E6FA;
+}
+aside nav ol li:nth-child(n+2) {
+	margin-top: 8px;
+	margin-right: 20px;
+	background-color: #E6E6FA;
+}
+   
+aside nav ul li:nth-child(1) {
+	  margin-right: 20px;
+		background: #FFF url(../Imagenes/img-jason.jpeg) no-repeat left center;
+    background-color: #E6E6FA;
+	 	text-indent: 65px;
+
+}
+aside nav ul li:nth-child(2) {
+	  margin-top: 8px;
+	  margin-right: 20px;
+	  background: #FFF url(../Imagenes/img-nick.jpeg) no-repeat left center;
+    background-color: #E6E6FA;
+		text-indent: 65px;
+
+}
+aside nav ul li:nth-child(3) {
+	margin-top: 8px;
+	margin-right: 20px;
+	background: #FFF url(../Imagenes/img-tim.jpeg) no-repeat left center;
+  background-color: #E6E6FA;
+	text-indent: 65px;
+}
+aside nav ul li:nth-child(4) {
+	 margin-top: 8px;
+	 margin-right: 20px;
+	 background: #FFF url(../Imagenes/img-drew.png) no-repeat left center;
+   background-color: #E6E6FA;
+   text-indent: 65px;
+}
+aside nav ul li:nth-child(5) {
+	  margin-top: 8px;
+	  margin-right: 20px;
+		background: #FFF url(../Imagenes/img-justin.jpeg) no-repeat left center;
+    background-color: #E6E6FA;
+ 	  text-indent: 65px;
+}
+
+aside nav ul, ol, li a{
+	  text-decoration: none;
+}
+aside nav ol li a{
+	  display: block;
+	  padding: 6px 1px;
+    color: #004E66;
+}
+aside nav ul li a{
+  	display: block;
+    padding: 15px 1px;
+  	color: #004E66;
+
+}
+
+aside nav ol li a:hover{
+  	 background-color:#004E66 ;
+  	 color: white;
+}
+aside nav ul li a:hover{
+	 background-color:#004E66 ;
+	 color: white;
+}
+
+/* ----- FIN ASIDE ----- */
+
+/* ----- FOOTER ----- */
+
+footer {
+	margin-left: 1.5%;
+	width: 98%;
+	border-radius: 15px;
+	background: #004E66;
+
+}
+footer nav {
+	overflow: hidden;
+}
+footer nav ol li{
+	float: left;
+	list-style-type: none;
+	text-decoration: none;
+}
+footer nav ol li a{
+	display: block;
+	margin-top: -6px;
+	margin-bottom: 10px;
+	margin-left: 60px;
+	padding: 2px 5px 2px 5px;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+}
+footer nav ol li a:hover{
+	background-color: white;
+	color:#004E66;
+}
+
+/* ----- FIN FOOTER ----- */

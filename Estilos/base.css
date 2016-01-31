@@ -1,0 +1,33 @@
+
+.display-grande{
+	display: none;
+}
+
+.display-mediano{
+	display: none;
+}
+
+.display-pequenyo{
+	display: none;
+}
+
+.menu{
+	padding-left: 0;
+}
+
+header nav ul li{
+	display: inline;
+	list-style-type: none;
+}
+
+body {
+	background-image: url("../Imagenes/bg.png");
+	background-repeat: repeat;
+	background-size: auto auto;
+	margin: 0 auto;
+}
+
+@font-face {
+	font-family: bebasneue;
+	src: url("../LetraFuente/bebasneue-webfont.ttf");
+}
