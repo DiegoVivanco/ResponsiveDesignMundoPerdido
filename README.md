@@ -1,6 +1,6 @@
-En este repositorio encontrarás la creación de una página web en la cual pongo en práctica todos los conocimiento que he estado adquiriendo en el grado de FP Dual de desarrollo de aplicaciones Web.
+En este repositorio encontrarás la creación de una página web en la cual pongo en práctica todos los conocimientos que he estado adquiriendo en el grado de FP Dual de desarrollo de aplicaciones Web.
 
-El código html y css está enfocado en el Resposive Design, usando una estructura básica, así que puede tener fallos.
+El código html y css está enfocado en el Resposive Design, usando una estructura básica.
 
 Responsive Design
 =======
